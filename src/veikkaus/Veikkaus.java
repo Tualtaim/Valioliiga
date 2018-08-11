@@ -45,7 +45,7 @@ public class Veikkaus {
 			String team = veikkaus.get(i);
 			int sijoitus = oikeaRivi.indexOf(team) +1;
 			int veikattu = i+1;
-			pisteet = pisteet + Math.abs(sijoitus-veikattu);
+			pisteet = pisteet + 20 - Math.abs(sijoitus-veikattu);
 		}
 		
 		//pisteet potkuista ja Cup-kilpailuista
