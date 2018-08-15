@@ -11,13 +11,16 @@ public class Veikkaus {
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader1 = new BufferedReader(new FileReader("veikkaus.txt"));
 		BufferedReader reader2 = new BufferedReader(new FileReader("oikearivi.txt"));
-
+		BufferedReader reader3 = new BufferedReader(new FileReader("maaliporssi.txt"));
+	
 		String line1 = reader1.readLine();
 		String line2 = reader2.readLine();
-
+		String line3 = reader3.readLine();
+		
 		List<String> veikkaus = new ArrayList<>();
 		List<String> oikeaRivi = new ArrayList<>();
-		
+		List<String> maaliporssi = new ArrayList<>();
+
 		while(line2 != null) {
 			oikeaRivi.add(line2);
 			line2 = reader2.readLine();
@@ -27,12 +30,19 @@ public class Veikkaus {
 			veikkaus.add(line1);
 			line1 = reader1.readLine();
 		}
+		while(line3 != null) {
+			maaliporssi.add(line3);
+			line3 = reader3.readLine();
+		}
 	
 		int pisteet = Pisteet(veikkaus, oikeaRivi);
+		System.out.println(pisteet);
+		pisteet = pisteet + Maalintekijat(veikkaus, maaliporssi);
 		System.out.println(pisteet);
 
 		reader1.close();
 		reader2.close();
+		reader3.close();
 	}
 	
 		
@@ -66,6 +76,43 @@ public class Veikkaus {
 			pisteet = pisteet + 20;
 		}
 
+		return pisteet;
+	}
+	
+	public static int Maalintekijat(List<String> veikkaus, List<String> maaliporssi) {
+		int pisteet = 0;
+		
+		String maalintekija1 = veikkaus.get(21);
+		String maalintekija2 = veikkaus.get(22);
+		String maalintekija3 = veikkaus.get(23);
+		String maalintekija4 = veikkaus.get(24);
+		String maalintekija5 = veikkaus.get(25);
+		
+		if(maaliporssi.contains(maalintekija1)) {
+			int rivi = maaliporssi.indexOf(maalintekija1);
+			String maalit = maaliporssi.get(rivi+1);
+			pisteet = pisteet + Integer.parseInt(maalit);			
+		}
+		if(maaliporssi.contains(maalintekija2)) {
+			int rivi = maaliporssi.indexOf(maalintekija2);
+			String maalit = maaliporssi.get(rivi+1);
+			pisteet = pisteet + Integer.parseInt(maalit);			
+		}
+		if(maaliporssi.contains(maalintekija3)) {
+			int rivi = maaliporssi.indexOf(maalintekija3);
+			String maalit = maaliporssi.get(rivi+1);
+			pisteet = pisteet + Integer.parseInt(maalit);			
+		}
+		if(maaliporssi.contains(maalintekija4)) {
+			int rivi = maaliporssi.indexOf(maalintekija4);
+			String maalit = maaliporssi.get(rivi+1);
+			pisteet = pisteet + Integer.parseInt(maalit);			
+		}
+		if(maaliporssi.contains(maalintekija5)) {
+			int rivi = maaliporssi.indexOf(maalintekija5);
+			String maalit = maaliporssi.get(rivi+1);
+			pisteet = pisteet + Integer.parseInt(maalit);			
+		}
 		return pisteet;
 	}
 
