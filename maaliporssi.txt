@@ -1,0 +1,498 @@
+Mohamed Salah
+32
+Harry Kane
+30
+Sergio Agüero
+21
+Jamie Vardy
+20
+Raheem Sterling
+18
+Romelu Lukaku
+16
+Roberto Firmino
+15
+Alexandre Lacazette
+14
+Gabriel Jesus
+13
+Eden Hazard
+12
+Riyad Mahrez
+12
+Glenn Murray
+12
+Son Heung-Min
+12
+Marko Arnautovic
+11
+Álvaro Morata
+11
+Pierre-Emerick Aubameyang
+10
+Christian Eriksen
+10
+Sadio Mané
+10
+Luka Milivojevic
+10
+Wayne Rooney
+10
+Leroy Sané
+10
+Chris Wood
+10
+Dele Alli
+9
+Ashley Barnes
+9
+Anthony Martial
+9
+Alexis Sánchez
+9
+David Silva
+9
+Wilfried Zaha
+9
+Kevin De Bruyne
+8
+Chicharito
+8
+Joshua King
+8
+Jesse Lingard
+8
+Oumar Niasse
+8
+Ayoze Pérez
+8
+Xherdan Shaqiri
+8
+Callum Wilson
+8
+Marcos Alonso
+7
+Charlie Austin
+7
+Jordan Ayew
+7
+Coutinho
+7
+Abdoulaye Doucouré
+7
+Olivier Giroud
+7
+Pascal Groß
+7
+Steve Mounie
+7
+Aaron Ramsey
+7
+Marcus Rashford
+7
+Jay Rodriguez
+7
+Salomón Rondón
+7
+Willian
+6
+Laurent Depoitre
+6
+Mame Biram Diouf
+6
+Dwight Gayle
+6
+Shinji Okazaki
+6
+Paul Pogba
+6
+Dusan Tadic
+6
+Bernardo Silva
+6
+Tammy Abraham
+5
+Eric Maxim Choupo-Moting
+5
+Peter Crouch
+5
+Richarlison
+5
+Troy Deeney
+5
+Ryan Fraser
+5
+Manolo Gabbiadini
+5
+Andre Gray
+5
+José Izquierdo
+5
+Manuel Lanzini
+5
+Fernandinho
+5
+James McArthur
+5
+Nacho Monreal
+5
+Roberto Pereyra
+5
+Junior Stanislas
+5
+Cenk Tosun
+5
+Patrick van Aanholt
+5
+Danny Welbeck
+5
+Dominic Calvert-Lewin
+4
+Jermain Defoe
+4
+Marouane Fellaini
+4
+Ilkay Gündogan
+4
+Joselu
+4
+Aaron Mooy
+4
+Mark Noble
+4
+Nicolás Otamendi
+4
+Mesut Özil
+4
+Pedro
+4
+Gylfi Sigurdsson
+4
+Chris Smalling
+4
+Sam Vokes
+4
+Michail Antonio
+3
+André Ayew
+3
+Christian Benteke
+3
+Emre Can
+3
+Andy Carroll
+3
+Sam Clucas
+3
+Danilo
+3
+Steven Davis
+3
+Demarai Gray
+3
+Vicente Iborra
+3
+Kelechi Iheanacho
+3
+Alex Iwobi
+3
+Daryl Janmaat
+3
+Andy King
+3
+Anthony Knockaert
+3
+Jamaal Lascelles
+3
+Juan Mata
+3
+Henrikh Mkhitaryan
+3
+Victor Moses
+3
+Shkodran Mustafi
+3
+Alex Oxlade-Chamberlain
+3
+Matt Ritchie
+3
+Bakary Sako
+3
+James Tomkins
+3
+Antonio Valencia
+3
+Rajiv van La Parra
+3
+Theo Walcott
+3
+James Ward-Prowse
+3
+Nathan Aké
+2
+Marc Albrighton
+2
+Joe Allen
+2
+Scott Arfield
+2
+Christian Atsu
+2
+Serge Aurier
+2
+César Azpilicueta
+2
+Leighton Baines
+2
+Tiemoué Bakayoko
+2
+Michy Batshuayi
+2
+Héctor Bellerín
+2
+Johann Berg Gudmundsson
+2
+Wilfried Bony
+2
+Sofiane Boufal
+2
+Ciaran Clark
+2
+Steve Cook
+2
+Jack Cork
+2
+Ben Davies
+2
+Tom Davies
+2
+Craig Dawson
+2
+Mohamed Diamé
+2
+Jonny Evans
+2
+Cesc Fàbregas
+2
+Dan Gosling
+2
+Idrissa Gueye
+2
+Ahmed Hegazi
+2
+Tomer Hemed
+2
+Jeff Hendrick
+2
+Will Hughes
+2
+Jordon Ibe
+2
+Tom Ince
+2
+Christian Kabasele
+2
+Ki Sung-yueng
+2
+Sead Kolasinac
+2
+Laurent Koscielny
+2
+Cheikhou Kouyaté
+2
+Erik Lamela
+2
+Jake Livermore
+2
+Ruben Loftus-Cheek
+2
+Shane Long
+2
+Dejan Lovren
+2
+Harry Maguire
+2
+Alfie Mawson
+2
+Lys Mousset
+2
+João Mário
+2
+Badou Ndiaye
+2
+Kenedy
+2
+Pedro Obiang
+2
+Matt Phillips
+2
+Hal Robson-Kanu
+2
+Antonio Rüdiger
+2
+Diafra Sakho
+2
+Ramadan Sobhi
+2
+Jack Stephens
+2
+Daniel Sturridge
+2
+Andrew Surman
+2
+Andros Townsend
+2
+Maya Yoshida
+2
+Ashley Young
+2
+Trent Alexander-Arnold
+1
+Harry Arter
+1
+Eric Bailly
+1
+Gareth Barry
+1
+Jan Bednarek
+1
+Yannick Bolasie
+1
+Robbie Brady
+1
+Miguel Britos
+1
+Etienne Capoue
+1
+André Carrillo
+1
+Nacer Chadli
+1
+Tom Cleverley
+1
+James Collins
+1
+Aaron Cresswell
+1
+Charlie Daniels
+1
+Scott Dann
+1
+Steven Defour
+1
+Fabian Delph
+1
+Gerard Deulofeu
+1
+Daniel Drinkwater
+1
+Lewis Dunk
+1
+Kiko Femenía
+1
+Leroy Fer
+1
+Federico Fernández
+1
+Sam Field
+1
+Darren Fletcher
+1
+Isaac Hayden
+1
+Jordan Henderson
+1
+Danny Ings
+1
+Elias Kachunga
+1
+N'Golo Kanté
+1
+Ragnar Klavan
+1
+Vincent Kompany
+1
+Mario Lemina
+1
+Fernando Llorente
+1
+Jürgen Locadia
+1
+Joe Lolley
+1
+Kevin Long
+1
+David Luiz
+1
+Solly March
+1
+Nemanja Matic
+1
+Joel Matip
+1
+James McClean
+1
+Mikel Merino
+1
+Per Mertesacker
+1
+Aleksandar Mitrovic
+1
+James Morrison
+1
+Jacob Murphy
+1
+Luciano Narsingh
+1
+Angelo Ogbonna
+1
+Stefano Okaka
+1
+Alex Pritchard
+1
+Nathan Redmond
+1
+Andrew Robertson
+1
+Jesé
+1
+Oriol Romeu
+1
+Henri Saivet
+1
+Mamadou Sakho
+1
+Ryan Shawcross
+1
+Jonjo Shelvey
+1
+Moussa Sissoko
+1
+Islam Slimani
+1
+Adam Smith
+1
+Dominic Solanke
+1
+Leonardo Ulloa
+1
+Mike van der Hoorn
+1
+Molla Wagué
+1
+Victor Wanyama
+1
+Stephen Ward
+1
+Georginio Wijnaldum
+1
+Ashley Williams
+1
+Jack Wilshere
+1
+Granit Xhaka
+1
+Davide Zappacosta
+1
+Kurt Zouma
+1
