@@ -1,3 +1,3 @@
 # ValioliigaVeikkaus
 
-A program that calculates the points for a Premier league sweep. Sweep includes the league table, first manager to be sacked, winner of league cup and FA cup and fice best goalscorers of the season. 
+A program that calculates the points for a Premier league sweep. Sweep includes the league table, first manager to be sacked, winner of league cup and FA cup and five best goalscorers of the season. 
