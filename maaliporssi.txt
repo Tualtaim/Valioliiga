@@ -2,7 +2,7 @@ Mohamed Salah
 32
 Harry Kane
 30
-Sergio Agüero
+Sergio Aguero
 21
 Jamie Vardy
 20
@@ -32,7 +32,7 @@ Pierre-Emerick Aubameyang
 10
 Christian Eriksen
 10
-Sadio Mané
+Sadio Mane
 10
 Luka Milivojevic
 10
@@ -48,7 +48,7 @@ Ashley Barnes
 9
 Anthony Martial
 9
-Alexis Sánchez
+Alexis Sanchez
 9
 David Silva
 9
@@ -64,7 +64,7 @@ Jesse Lingard
 8
 Oumar Niasse
 8
-Ayoze Pérez
+Ayoze Perez
 8
 Xherdan Shaqiri
 8
@@ -78,7 +78,7 @@ Jordan Ayew
 7
 Coutinho
 7
-Abdoulaye Doucouré
+Abdoulaye Doucoure
 7
 Olivier Giroud
 7
@@ -174,7 +174,7 @@ Sam Vokes
 4
 Michail Antonio
 3
-André Ayew
+Andre Ayew
 3
 Christian Benteke
 3
@@ -228,7 +228,7 @@ Theo Walcott
 3
 James Ward-Prowse
 3
-Nathan Aké
+Nathan Ake
 2
 Marc Albrighton
 2
@@ -248,7 +248,7 @@ Tiemoué Bakayoko
 2
 Michy Batshuayi
 2
-Héctor Bellerín
+Héctor Bellerin
 2
 Johann Berg Gudmundsson
 2
@@ -268,7 +268,7 @@ Tom Davies
 2
 Craig Dawson
 2
-Mohamed Diamé
+Mohamed Diame
 2
 Jonny Evans
 2
@@ -316,7 +316,7 @@ Alfie Mawson
 2
 Lys Mousset
 2
-João Mário
+Joao Mario
 2
 Badou Ndiaye
 2
@@ -406,7 +406,7 @@ Danny Ings
 1
 Elias Kachunga
 1
-N'Golo Kanté
+N'Golo Kante
 1
 Ragnar Klavan
 1
