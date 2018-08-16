@@ -1,48 +1,90 @@
 package veikkaus;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Veikkaus {
 
+	
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader1 = new BufferedReader(new FileReader("veikkaus.txt"));
-		BufferedReader reader2 = new BufferedReader(new FileReader("oikearivi.txt"));
-		BufferedReader reader3 = new BufferedReader(new FileReader("maaliporssi.txt"));
-	
-		String line1 = reader1.readLine();
-		String line2 = reader2.readLine();
-		String line3 = reader3.readLine();
-		
-		List<String> veikkaus = new ArrayList<>();
-		List<String> oikeaRivi = new ArrayList<>();
-		List<String> maaliporssi = new ArrayList<>();
 
-		while(line2 != null) {
-			oikeaRivi.add(line2);
-			line2 = reader2.readLine();
-		}
+			BufferedReader reader2 = new BufferedReader(new FileReader("oikearivi.txt"));
+			BufferedReader reader3 = new BufferedReader(new FileReader("maaliporssi.txt"));
 		
-		while(line1 != null) {
-			veikkaus.add(line1);
-			line1 = reader1.readLine();
-		}
-		while(line3 != null) {
-			maaliporssi.add(line3);
-			line3 = reader3.readLine();
-		}
-	
-		int pisteet = Pisteet(veikkaus, oikeaRivi);
-		System.out.println(pisteet);
-		pisteet = pisteet + Maalintekijat(veikkaus, maaliporssi);
-		System.out.println(pisteet);
+			String line2 = reader2.readLine();
+			String line3 = reader3.readLine();
+			
+			List<String> veikkaus = new ArrayList<>();
+			List<String> oikeaRivi = new ArrayList<>();
+			List<String> maaliporssi = new ArrayList<>();
+			List<String> tulokset = new ArrayList<>();
 
-		reader1.close();
-		reader2.close();
-		reader3.close();
+			while(line2 != null) {
+				oikeaRivi.add(line2);
+				line2 = reader2.readLine();
+			}
+					
+			while(line3 != null) {
+				maaliporssi.add(line3);
+				line3 = reader3.readLine();
+			}
+	
+			//veikkausket kansiossa veikkaukset veikkaajan nimellä
+			File dir = new File("veikkaukset/");
+
+			for (File file : dir.listFiles()) {
+			    String veikkaaja = file.getName();
+		        if(veikkaaja.contains(".txt")) {
+					BufferedReader reader1 = new BufferedReader(new FileReader(file));
+					String line1 = reader1.readLine();
+					while(line1 != null) {
+						veikkaus.add(line1);
+						line1 = reader1.readLine();
+					}
+					int pisteet = Pisteet(veikkaus, oikeaRivi);
+					veikkaaja = veikkaaja.replace(".txt", "");
+					pisteet = pisteet + Maalintekijat(veikkaus, maaliporssi);
+					tulokset.add(veikkaaja + " " + pisteet);
+					pisteet = 0;
+					veikkaus.clear();
+			    	reader1.close();
+		        }else {
+		        }
+			}
+			
+			//Järjestää tulokset suurimmasta pienimpään
+		    Collections.sort(tulokset, new Comparator<String>() {
+		        public int compare(String o1, String o2) {
+		            return pisteet(o2) - pisteet(o1);
+		        }
+
+		        int pisteet(String str) {
+		            String num = str.substring(str.length() - 3);
+		            // return 0 if no digits found
+		            return Integer.parseInt(num);
+		        }
+		    });
+		    //kirjoittaa tulokset tiedostoon tulokset.txt
+			BufferedWriter outputWriter = null;
+			outputWriter = new BufferedWriter(new FileWriter("tulokset.txt"));
+		    for (int i = 0; i < tulokset.size(); i++) {
+		    	outputWriter.write(i + 1 + ".	");
+		    	outputWriter.write(tulokset.get(i));
+			    outputWriter.newLine();
+			}
+		    outputWriter.flush();  
+    		outputWriter.close();  
+
+			reader2.close();
+			reader3.close();
 	}
 	
 		
@@ -79,6 +121,7 @@ public class Veikkaus {
 		return pisteet;
 	}
 	
+	//Pisteet maalintekijäveikkauksesta
 	public static int Maalintekijat(List<String> veikkaus, List<String> maaliporssi) {
 		int pisteet = 0;
 		
